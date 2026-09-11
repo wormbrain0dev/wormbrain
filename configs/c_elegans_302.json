@@ -1,0 +1,17 @@
+{
+  "organism": "Caenorhabditis elegans",
+  "neuron_count": 302,
+  "synapse_count": 6912,
+  "simulation": {
+    "dt_ms": 1.0,
+    "v_rest_mv": -70.0,
+    "v_threshold_mv": -50.0,
+    "v_reset_mv": -75.0,
+    "decay_tau": 20.0
+  },
+  "key_neurons": {
+    "sensory": ["ASEL", "ASER", "ASHL", "ASHR"],
+    "command": ["AVAL", "AVAR", "AVBL", "AVBR"],
+    "motor": ["SMDDL", "SMDDR", "RMED", "RMEV"]
+  }
+}
